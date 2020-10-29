@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+
+.logo_style {
+  background-size: cover !important;
+}
+
+.black_blue {
+  background-color: #0d1831;
+}
+
+/* Feature */
+.featured_wrapper {
+  height: 600px;
+  margin-top: 80px;
+  /* background-color: red !important; */
+  overflow: hidden;
+}
+
+.featured_stripes {
+  position: relative;
+}
+.featured_stripes .strip {
+  position: absolute;
+  width: 200px;
+  height: 1200px;
+}
+
+.featured_text {
+  position: relative;
+  font-family: "Righteous", cursive;
+}
+
+.featured_number {
+  color: #ffffff;
+  font-size: 250px;
+  transform: translate(250px, 70px);
+  position: absolute;
+}
+
+.featured_first {
+  position: absolute;
+  font-size: 82px;
+  color: #fff;
+  background: #0e1731;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+
+.featured_player {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+/* @media(max-width:500px){
+  .featured_wrapper{
+    height: 300px;
+  }
+  .featured_stripes .strip{
+    width:100px;
+  }
+} */
