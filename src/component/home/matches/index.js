@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../ui/Button";
+import Blocks from "./Blocks";
 
 function Matches() {
   return (
@@ -8,7 +9,7 @@ function Matches() {
         <Button bck="#0e1731" size="50px" color="#ffffff">
           Matches
         </Button>
-        blocks
+        <Blocks />
         <Button
           bck="#ffffff"
           size="22px"
