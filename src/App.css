@@ -83,6 +83,12 @@
   width: 50px;
   height: 50px;
   background-size: cover !important;
+  margin-right: 10px;
+}
+
+.team_name {
+  font-family: "Righteous", cursive;
+  font-size: 23px;
 }
 
 .left {
@@ -101,13 +107,30 @@
   width: 66px;
   background: #0d1831;
   color: #fff;
+  font-family: "Righteous", cursive;
+  font-size: 23px;
 }
 
-/* @media(max-width:500px){
-  .featured_wrapper{
-    height: 300px;
-  }
-  .featured_stripes .strip{
-    width:100px;
+.match_buttom {
+  display: flex;
+  margin-top: 5px;
+}
+
+/* @media screen and (max-width: 1200px) {
+  .home_matches {
+    width: 80%;
+    grid-template-columns: 1fr;
   }
 } */
+
+@media (max-width: 500px) {
+  .home_matches {
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+  }
+  .item {
+    margin: 30px 0px;
+    width: 350px;
+  }
+}

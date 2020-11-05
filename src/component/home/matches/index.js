@@ -34,4 +34,5 @@ const matches = {
 const container = {
   width: "80%",
   margin: "0 auto",
+  overflow: "hidden",
 };
