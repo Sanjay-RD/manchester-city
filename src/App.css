@@ -56,6 +56,53 @@
   background-repeat: no-repeat !important;
 }
 
+/* block style */
+.home_matches {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 35px 0px;
+}
+.item {
+  margin: 30px 0px;
+  width: 450px;
+}
+.match_wrapper {
+  /* background: #fff; */
+}
+
+.match_date {
+  color: #fff;
+  font-weight: bold;
+}
+
+.match_top {
+  display: flex;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover !important;
+}
+
+.left {
+  background: #fff;
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  width: 388px;
+  margin-right: 5px;
+}
+
+.right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 66px;
+  background: #0d1831;
+  color: #fff;
+}
+
 /* @media(max-width:500px){
   .featured_wrapper{
     height: 300px;

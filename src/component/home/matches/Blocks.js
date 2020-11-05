@@ -28,10 +28,10 @@ class Blocks extends Component {
   showMatches = (matches) =>
     matches
       ? matches.map((match) => (
-          <div style={item}>
-            {/* <div style={wrapper}> */}
-            <MatchesBlock match={match} />
-            {/* </div> */}
+          <div className="item">
+            <div className="wrapper">
+              <MatchesBlock match={match} />
+            </div>
           </div>
         ))
       : null;
@@ -40,22 +40,9 @@ class Blocks extends Component {
     // const {matches} = this.state
     // console.log(this.state);
     return (
-      <div style={home_matches}>{this.showMatches(this.state.matches)}</div>
+      <div className="home_matches">{this.showMatches(this.state.matches)}</div>
     );
   }
 }
 
 export default Blocks;
-
-const item = {
-  border: "1px solid green",
-  display: "flex",
-};
-// const wrapper = {
-//   border: "1px solid red",
-// };
-const home_matches = {
-  background: "#98c5e9",
-  marginTop: "9px",
-  padding: "50px 0px",
-};
