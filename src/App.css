@@ -116,6 +116,35 @@
   margin-top: 5px;
 }
 
+/* Meet Player style */
+.meet_players {
+  width: 100%;
+  /* height: 500px; */
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.meet_wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* text-align: center; */
+  height: 365px;
+  column-gap: 40px;
+  padding: 20px 0px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+.left_wrapper {
+}
+/* End */
+
 /* @media screen and (max-width: 1200px) {
   .home_matches {
     width: 80%;
