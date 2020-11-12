@@ -11,6 +11,7 @@ function Button(props) {
         padding: "5px 10px",
         fontFamily: "Righteous",
         display: "inline-block",
+        ...props.add,
       }}
     >
       {props.children}
