@@ -141,10 +141,55 @@
   align-items: center;
   border: 1px solid;
 }
+.right_wrapper {
+  position: relative;
+}
 .left_wrapper div {
   margin-bottom: 5px;
 }
 /* End */
+
+/* Player card */
+.player_card_wrapper {
+  background: #ffffff;
+  border: 1px solid #ececec;
+  width: 250px;
+  padding: 10px 10px 20px 10px;
+  font-family: "Righteous";
+}
+.player_card_thmb {
+  border: 1px solid #eeeeee;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.player_card_info {
+  position: relative;
+}
+
+.player_card_number {
+  color: #d6ecfe;
+  font-size: 135px;
+  font-weight: bold;
+  margin-top: -20px;
+  text-align: right;
+}
+
+.player_card_name {
+  position: absolute;
+  bottom: 0px;
+}
+
+.player_card_name span {
+  display: block;
+  font-size: 25px;
+  color: #0d1831;
+}
+
+/* -------------------- */
 
 /* @media screen and (max-width: 1200px) {
   .home_matches {
